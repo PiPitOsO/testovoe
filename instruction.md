@@ -1,0 +1,8 @@
+- БД MySQL развёртывается в docker на порте 3306.
+- Программа может так же запускаться через Docker или на рабочей машине.
+- Слушает http://localhost:8080/
+- Добавление записи факта коммуникации в формате http://localhost:8080/?client1=1&client2=2
+- Полный список http://localhost:8080/connection
+- Максимальное количество коммуникаций http://localhost:8080/connection/max
+- Минимальное количество коммуникацийhttp://localhost:8080/connection/min
+- Среднее количество коммуникацийhttp://localhost:8080/connection/avg
